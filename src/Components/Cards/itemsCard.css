@@ -1,6 +1,6 @@
 .itmCard {
   height: 80%;
-  width: 30%;
+  width: 20%;
   border: 2px solid gold;
 }
 
@@ -33,11 +33,11 @@
 }
 
 .itmCard-top2RYT {
-  color: yellow;
+  color: brown;
 }
 
 .itmCard-mid {
-  background-image: url(../../Images/malemodel1.jpg);
+  background-image: url(../../Images1/malemodel1.jpg);
   background-size: cover;
   background-position: center;
   border: 2px solid red;

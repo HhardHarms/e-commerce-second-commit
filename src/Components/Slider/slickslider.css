@@ -82,7 +82,7 @@
   font-weight: 600;
 }
 .left1 h1 {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 400;
   text-transform: capitalize;
 }
@@ -154,7 +154,7 @@
   border: none;
   text-transform: capitalize;
   padding: 10px 20px;
-  width: 40%;
+  width: 55%;
   border-radius: 7px;
   transition: ease-in-out 0.5s;
 }
@@ -204,7 +204,7 @@
   flex-direction: column;
   justify-content: flex-start;
   padding: 20px;
-  gap: 20px;
+  gap: 10px;
 }
 .left3 p {
   text-transform: capitalize;
@@ -370,13 +370,13 @@
   color: white;
 }
 .left5 h1 {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 600;
   text-transform: uppercase;
   color: black;
 }
 .left5 h1 span {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 600;
   text-transform: uppercase;
   color: rgb(181, 101, 101);
@@ -427,7 +427,7 @@
 }
 .slideCONT-txt6 {
   border: 3px solid gold;
-  height: 400px;
+  height: 420px;
   width: 55%;
   display: flex;
   margin-left: 30px;
