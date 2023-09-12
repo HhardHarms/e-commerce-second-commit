@@ -1,0 +1,87 @@
+.itmCard {
+  height: 80%;
+  width: 30%;
+  border: 2px solid gold;
+}
+
+.itmCard-top {
+  border: 2px solid green;
+  height: 15%;
+  width: 100%;
+}
+
+.itmCard-top1 {
+  border: 2px solid maroon;
+  height: 45%;
+  width: 100%;
+  padding: 3px;
+}
+.itmCard-top1 h3 {
+  color: brown;
+}
+
+.itmCard-top2 {
+  border: 2px solid maroon;
+  height: 55%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.itmCard-top2LFT P {
+  font-weight: 500;
+}
+
+.itmCard-top2RYT {
+  color: yellow;
+}
+
+.itmCard-mid {
+  background-image: url(../../Images/malemodel1.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 2px solid red;
+  height: 65%;
+}
+
+.itmCard-bttm {
+  border: 2px solid green;
+  width: 100%;
+  height: 20%;
+}
+
+.itmCard-bttmUP {
+  border: 2px solid maroon;
+  height: 60%;
+  width: 100%;
+  padding: 7px;
+}
+
+.itmCard-bttmUP p {
+  color: brown;
+  font-weight: 500;
+}
+
+.itmCard-bttmDWN {
+  border: 2px solid maroon;
+  height: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.DWN-icn1 {
+  border: 2px solid pink;
+  width: 50%;
+  height: 100%;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.DWN-icn2 {
+  border: 2px solid pink;
+  width: 15%;
+  height: 100%;
+  font-size: 5px;
+}

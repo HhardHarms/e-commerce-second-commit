@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* slickslider.css */
+.herroBttmSlider-container {
+  height: 31vh;
+  width: 100%;
+  overflow: hidden;
+  border: 2px solid yellow;
+  border-radius: 10px;
+}
+
+/* .box-Slider {
+  width: 100%;
+  height: 550px;
+  border: 5px solid purple;
+  border-bottom: 10px;
+} */
+
+.herroBttmSlider-item-slider-1 {
+  border: 5px solid red;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.herroBttmSlideCONT1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 31vh;
+  width: 100%;
+  border: 5px solid red;
+  background-image: url(../../HBS-images/Shirts.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.herroBttmSlider-item .slider-2 {
+  border: 5px solid red;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.herroBttmSlideCONT2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 31vh;
+  width: 100%;
+  border: 5px solid red;
+  background-image: url(../../HBS-images/Bags.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.herroBttmSlider-item .slider-3 {
+  border: 5px solid red;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.herroBttmSlideCONT3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 31vh;
+  width: 100%;
+  border: 5px solid red;
+  background-image: url(../../HBS-images/Footwears.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.herroBttmSlider-item .slider-4 {
+  border: 5px solid red;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.herroBttmSlideCONT4 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 31vh;
+  width: 100%;
+  border: 5px solid red;
+  background-image: url(../../HBS-images/Jewelries.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.herroBttmSlider-item .slider-5 {
+  border: 5px solid red;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.herroBttmSlideCONT5 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 31vh;
+  width: 100%;
+  border: 5px solid red;
+  background-image: url(../../HBS-images/Wrist-watches.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.herroBttmSlider-item .slider-6 {
+  border: 5px solid red;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.herroBttmSlideCONT6 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 31vh;
+  width: 100%;
+  border: 5px solid red;
+  background-image: url(../../HBS-images/T-shirts.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.herroBttmSlider-item .slider-7 {
+  border: 5px solid red;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.herroBttmSlideCONT7 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 31vh;
+  width: 100%;
+  border: 5px solid red;
+  background-image: url(../../HBS-images/jackets.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* .slideCONT-txt {
+  border: 5px solid maroon;
+  width: 35%;
+  height: 500px;
+}
+
+.slider-item.slider-6 .left {
+  border: 5px solid gold;
+  width: 100%;
+  height: 100%;
+} */
+
+.herroBttmSliderTXT {
+  width: 100%;
+  height: 18%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 5px solid gold;
+  margin-bottom: 220px;
+}
+
+.herroBttmSliderBttn {
+  background-color: rgb(181, 101, 101);
+  border-radius: 7px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}
+
+.herroBttmSliderBttn:hover {
+  cursor: pointer;
+  background-color: brown;
+}

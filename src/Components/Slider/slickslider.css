@@ -1,0 +1,535 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* slickslider.css */
+.slider-container {
+  height: 550px;
+  width: 100%;
+  /* overflow: hidden; */
+  border: 2px solid yellow;
+  border-radius: 10px;
+}
+
+.box-Slider {
+  width: 100%;
+  height: 550px;
+  border-bottom: 10px;
+  border: 5px solid green;
+}
+
+.slideCONT {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 500px;
+  width: 50%;
+  border: 5px solid purple;
+}
+
+.slider-item.slider-1 {
+  background-image: url(../../s-images/Slide1-newarriv.jpg); /* Replace with image path for Slider 1 */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* border: 5px solid red; */
+  height: 550px;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slideCONT1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 550px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+  border: 5px solid blue;
+}
+.slideCONT-txt1 {
+  border: 3px solid gold;
+  height: 350px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.left1 {
+  border: 3px solid maroon;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+.left1 p {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.left1 p span {
+  color: brown;
+  font-weight: 600;
+}
+.left1 h1 {
+  font-size: 60px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.btn-primary1 {
+  background-color: rgb(181, 101, 101);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  width: 30%;
+  border-radius: 7px;
+  transition: ease-in-out 0.5s;
+}
+.btn-primary1:hover {
+  background-color: brown;
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: ease-in-out 0.5s;
+  text-decoration: none;
+}
+
+.slider-item.slider-2 {
+  background-image: url(../../s-images/Slide2-sportfash.jpg); /* Replace with image path for Slider 2 */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* border: 5px solid red; */
+  height: 550px;
+  width: 100%;
+  border-radius: 10px;
+}
+.slideCONT2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  height: 550px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 5px solid blue;
+}
+.slideCONT-txt2 {
+  border: 3px solid gold;
+  height: 350px;
+  width: 45%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.left2 {
+  border: 3px solid maroon;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+.left2 h1 {
+  font-size: 50px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.btn-primary2 {
+  background-color: rgb(181, 101, 101);
+  color: white;
+  border: none;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  width: 40%;
+  border-radius: 7px;
+  transition: ease-in-out 0.5s;
+}
+.btn-primary2:hover {
+  background-color: brown;
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: ease-in-out 0.5s;
+  text-decoration: none;
+}
+
+.slider-item.slider-3 {
+  background-image: url(../../s-images/Slide3-discount1.jpg); /* Replace with image path for Slider 3 */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* border: 5px solid red; */
+  height: 550px;
+  width: 100%;
+  border-radius: 10px;
+}
+.slideCONT3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  height: 550px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 5px solid blue;
+}
+.slideCONT-txt3 {
+  border: 3px solid gold;
+  height: 450px;
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.left3 {
+  border: 3px solid maroon;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  gap: 20px;
+}
+.left3 p {
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 30px;
+  color: rgb(22, 133, 133);
+}
+.left3 h1 {
+  font-size: 80px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: black;
+}
+.left3 h3 {
+  text-transform: capitalize;
+  color: rgb(22, 133, 133);
+  font-weight: 600;
+}
+.btn-primary3 {
+  background-color: rgb(181, 101, 101);
+  color: white;
+  border: none;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  width: 30%;
+  border-radius: 7px;
+  transition: ease-in-out 0.5s;
+}
+.btn-primary3:hover {
+  background-color: brown;
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: ease-in-out 0.5s;
+  text-decoration: none;
+}
+
+.slider-item.slider-4 {
+  background-image: url(../../s-images/Slide4-denim.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* border: 5px solid red; */
+  height: 550px;
+  width: 100%;
+  border-radius: 10px;
+}
+.slideCONT4 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  height: 550px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: 5px solid blue;
+}
+.slideCONT-txt4 {
+  border: 3px solid gold;
+  height: 350px;
+  width: 55%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+.left4 {
+  border: 3px solid maroon;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px; */
+  gap: 3px;
+}
+.left4 h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 30px;
+  color: white;
+}
+.left4 h1 {
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+}
+.left4 p {
+  text-transform: capitalize;
+  color: white;
+  font-weight: 600;
+}
+.left4 p span {
+  color: brown;
+  font-weight: 800;
+}
+.btn-primary4 {
+  background-color: rgb(181, 101, 101);
+  color: white;
+  border: none;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  width: 30%;
+  border-radius: 7px;
+  transition: ease-in-out 0.5s;
+}
+.btn-primary4:hover {
+  background-color: brown;
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: ease-in-out 0.5s;
+  text-decoration: none;
+}
+
+.slider-item.slider-5 {
+  background-image: url(../../s-images/Slide5-sumsale.jpg); /* Replace with image path for Slider 4 */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* border: 5px solid red; */
+  height: 550px;
+  width: 100%;
+  border-radius: 10px;
+}
+.slideCONT5 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  height: 550px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  border: 5px solid blue;
+}
+.slideCONT-txt5 {
+  border: 3px solid gold;
+  height: 400px;
+  width: 55%;
+  display: flex;
+  margin-left: 30px;
+  justify-content: flex-start;
+}
+.left5 {
+  border: 3px solid maroon;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+  /* gap: 3px; */
+}
+.left5 p {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 30px;
+  color: white;
+}
+.left5 h1 {
+  font-size: 80px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: black;
+}
+.left5 h1 span {
+  font-size: 80px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgb(181, 101, 101);
+}
+.left5 p {
+  text-transform: capitalize;
+  color: white;
+  font-weight: 600;
+}
+.btn-primary5 {
+  background-color: rgb(181, 101, 101);
+  color: white;
+  border: none;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  width: 30%;
+  border-radius: 7px;
+  transition: ease-in-out 0.5s;
+}
+.btn-primary5:hover {
+  background-color: brown;
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: ease-in-out 0.5s;
+  text-decoration: none;
+}
+
+.slider-item.slider-6 {
+  background-image: url(../../s-images/Slide6-casual.jpg); /* Replace with image path for Slider 4 */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* border: 5px solid red; */
+  height: 550px;
+  width: 100%;
+  border-radius: 10px;
+}
+.slideCONT6 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  height: 550px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  border: 5px solid blue;
+}
+.slideCONT-txt6 {
+  border: 3px solid gold;
+  height: 400px;
+  width: 55%;
+  display: flex;
+  margin-left: 30px;
+  justify-content: flex-start;
+}
+.left6 {
+  border: 3px solid maroon;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+  /* gap: 3px; */
+}
+.left6 h1 {
+  font-size: 80px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: black;
+}
+.btn-primary6 {
+  background-color: rgb(181, 101, 101);
+  color: white;
+  border: none;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  width: 40%;
+  border-radius: 7px;
+  transition: ease-in-out 0.5s;
+}
+.btn-primary6:hover {
+  background-color: brown;
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: ease-in-out 0.5s;
+  text-decoration: none;
+}
+
+/* .slideCONT-txt {
+  border: 5px solid maroon;
+  width: 35%;
+  height: 500px;
+}
+
+.slider-item.slider-6 .left {
+  border: 5px solid gold;
+  width: 100%;
+  height: 100%;
+} */
+
+/* .left {
+  flex: 1;
+  padding: 20px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  width: 30%;
+  cursor: pointer;
+} */
+
+/* .btn-primary:hover {
+  background-color: #0056b3;
+} */
+
+.slick-dots {
+  position: relative;
+  /* border: 2px solid red; */
+}
+
+.slick-dots li {
+  border: 5px solid brown;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  bottom: -15px;
+  position: absolute;
+  /* border: 8px solid blue; */
+}
+
+.slick-dots li button {
+  /* background: transparent !important; */
+  /* color: transparent !important; */
+  position: absolute;
+  font-weight: 800;
+  bottom: -5px;
+  right: -5px;
+  /* background-color: #ee6262; */
+  /* border: 5px solid gold; */
+}
+
+.slick-dots li button::after {
+  font-size: 15px;
+  color: #0f3460;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  /* border: 5px solid gold; */
+  /* margin: auto; */
+}

@@ -1,0 +1,285 @@
+footer {
+  height: 50vh;
+  width: 100%;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  background-color: rgb(233, 231, 231);
+}
+.footContainer {
+  height: 100%;
+  width: 95%;
+  /* border: 2px solid blue; */
+}
+
+.footUP {
+  /* border: 2px solid gold; */
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.footUP p {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.footUP p span {
+  color: brown;
+}
+
+.FootContainer-MID {
+  /* border: 2px solid green; */
+  padding-top: 5px;
+  height: 68%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.Foot-cont1 {
+  /* border: 2px solid purple; */
+  height: 95%;
+  width: 35%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+.Foot-cont1 h1 {
+  color: aqua;
+  text-transform: capitalize;
+  padding-left: 10px;
+}
+.Foot-cont1 h1 span {
+  color: brown;
+  text-transform: capitalize;
+}
+.foot-icn {
+  color: brown;
+  font-size: 30px;
+}
+
+.foot-cont1-loc1 {
+  /* border: 2px solid blue; */
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  height: 22%;
+  transition: ease-in-out 0.3s;
+}
+.foot-cont1-loc-txt h3 {
+  text-transform: capitalize;
+}
+.foot-cont1-loc1:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: ease-in-out 0.3s;
+}
+
+.foot-cont1-loc2 {
+  /* border: 2px solid blue; */
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  height: 22%;
+  transition: ease-in-out 0.3s;
+}
+.foot-cont1-loc2:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: ease-in-out 0.3s;
+}
+
+.foot-cont1-loc3 {
+  /* border: 2px solid blue; */
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  height: 22%;
+  transition: ease-in-out 0.3s;
+}
+.foot-cont1-loc3:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: ease-in-out 0.3s;
+}
+
+.Foot-cont2 {
+  /* border: 2px solid brown; */
+  height: 95%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 85px;
+  padding-top: 10px;
+  gap: 13px;
+  margin-right: 30px;
+}
+.Ft-cnt2-txt h3 {
+  text-transform: capitalize;
+  color: brown;
+}
+.iccn {
+  color: brown;
+}
+
+.li-1 {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  text-transform: capitalize;
+  /* background-color: red; */
+  width: 50%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  font-weight: 600;
+}
+.li-1:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in-out 0.5s;
+  color: brown;
+  background-color: rgb(22, 133, 133);
+}
+
+.li-1 li {
+  text-transform: capitalize;
+  transition: ease-in-out 0.5s;
+}
+
+/* .li-1 li:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in-out 0.5s;
+  text-decoration: underline;
+  color: brown;
+  background-color: rgb(22, 133, 133);
+} */
+
+.Foot-cont3 {
+  /* border: 2px solid blue; */
+  margin-right: 10px;
+  height: 95%;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Foot-cont3-txt {
+  display: flex;
+  justify-content: center;
+}
+.Foot-cont3-txt h2 {
+  text-transform: capitalize;
+  color: brown;
+}
+
+.Foot-cont3-frrm {
+  /* border: 2px solid gold; */
+  height: 98%;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.frrm {
+  /* border: 2px solid indianred; */
+  border-radius: 5px;
+  box-shadow: none;
+  height: 15%;
+}
+.frr-mm {
+  /* border: 2px solid maroon; */
+  height: 30%;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+.frmmBttn {
+  /* border: 2px solid blue; */
+  width: 35%;
+  height: 13%;
+  margin-left: 120px;
+  border-radius: 5px;
+}
+
+.frmmBttn button {
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: brown;
+  font-weight: 600;
+  transition: ease-in-out 0.3s;
+  background-color: rgb(22, 133, 133);
+  border-radius: 5px;
+}
+.frmmBttn button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+  /* background-color: rgb(22, 133, 133); */
+}
+
+.Foot-bttm {
+  /* border: 2px solid aqua; */
+  height: 18%;
+  margin-top: 3px;
+}
+
+.Footer-icons {
+  /* border: 2px solid lawngreen; */
+  height: 80%;
+  font-size: 35px;
+  color: rgb(22, 133, 133);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  transition: transform ease-in-out 0.5s;
+}
+
+.Footer-icons ::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: -90px;
+  left: 0;
+  background: linear-gradient(-85deg, black, gold);
+  position: absolute;
+  transition: 0.5s;
+  z-index: -1;
+}
+.Footer-icons :hover::after {
+  top: 0;
+}
+.Footer-icons :hover {
+  color: brown;
+  transition: ease-in-out 0.5s;
+  transform: translateY(-10px);
+}
+
+.Foot-bttmTxt {
+  /* border: 2px solid fuchsia; */
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.Foot-bttmTxt p {
+  font-weight: 600;
+}
+.Foot-bttmTxt p span {
+  color: brown;
+}

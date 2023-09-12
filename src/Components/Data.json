@@ -1,0 +1,37 @@
+[
+  {
+    "food": "Burger",
+    "location": "Isheri",
+    "price": "N2300"
+  },
+  {
+    "food": "rice",
+    "location": "Isheri",
+    "price": "N300"
+  },
+  {
+    "food": "fries",
+    "location": "Isheri",
+    "price": "N200"
+  },
+  {
+    "food": "goat meat",
+    "location": "Isheri",
+    "price": "N8745"
+  },
+  {
+    "food": "Sticks",
+    "location": "Isheri",
+    "price": "584"
+  },
+  {
+    "food": "chicken",
+    "location": "Isheri",
+    "price": "N73874"
+  },
+  {
+    "food": "bread",
+    "location": "Isheri",
+    "price": "N8548"
+  }
+]
