@@ -1,7 +1,7 @@
 footer {
   height: 50vh;
   width: 100%;
-  /* border: 2px solid red; */
+  /* border: 2px solid gold */
   display: flex;
   justify-content: center;
   background-color: rgb(233, 231, 231);
@@ -9,11 +9,11 @@ footer {
 .footContainer {
   height: 100%;
   width: 95%;
-  /* border: 2px solid blue; */
+  /* border: 2px solid gold */
 }
 
 .footUP {
-  /* border: 2px solid gold; */
+  /* border: 2px solid gold */
   height: 10%;
   width: 100%;
   display: flex;
@@ -30,7 +30,7 @@ footer {
 }
 
 .FootContainer-MID {
-  /* border: 2px solid green; */
+  /* border: 2px solid gold */
   padding-top: 5px;
   height: 68%;
   width: 100%;
@@ -64,7 +64,7 @@ footer {
 }
 
 .foot-cont1-loc1 {
-  /* border: 2px solid blue; */
+  /* border: 2px solid gold */
   display: flex;
   align-items: center;
   gap: 30px;
@@ -81,7 +81,7 @@ footer {
 }
 
 .foot-cont1-loc2 {
-  /* border: 2px solid blue; */
+  /* border: 2px solid gold */
   display: flex;
   align-items: center;
   gap: 30px;
@@ -95,7 +95,7 @@ footer {
 }
 
 .foot-cont1-loc3 {
-  /* border: 2px solid blue; */
+  /* border: 2px solid gold */
   display: flex;
   align-items: center;
   gap: 30px;
@@ -165,7 +165,7 @@ footer {
 } */
 
 .Foot-cont3 {
-  /* border: 2px solid blue; */
+  /* border: 2px solid gold */
   margin-right: 10px;
   height: 95%;
   width: 35%;
@@ -183,7 +183,7 @@ footer {
 }
 
 .Foot-cont3-frrm {
-  /* border: 2px solid gold; */
+  /* border: 2px solid gold */
   height: 98%;
   display: flex;
   flex-direction: column;
@@ -196,14 +196,14 @@ footer {
   height: 15%;
 }
 .frr-mm {
-  /* border: 2px solid maroon; */
+  /* border: 2px solid gold */
   height: 30%;
   border-radius: 5px;
   box-shadow: none;
 }
 
 .frmmBttn {
-  /* border: 2px solid blue; */
+  /* border: 2px solid gold */
   width: 35%;
   height: 13%;
   margin-left: 120px;

@@ -1,0 +1,104 @@
+.Heerro-3 {
+  height: 56vh;
+  width: 100%;
+  /* border: 3px solid gold; */
+  display: flex;
+  justify-content: center;
+  /* gap: 20px; */
+  background-color: rgb(233, 231, 231);
+}
+
+.Hero3 {
+  /* border: 3px solid red; */
+  padding: 10px;
+  box-shadow: 0 0 8px 0 black;
+  border-radius: 7px;
+  width: 99%;
+  height: 92%;
+  margin-top: 30px;
+}
+
+.Hero3-Top {
+  /* border: 2px solid black; */
+  height: 18%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Hero3-TopLEFT {
+  border-bottom: 5px solid brown;
+  /* border: 2px solid gold; */
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
+  transition: ease-in-out 0.5s;
+}
+.Hero3-TopLEFT:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: ease-in-out 0.5s;
+  color: brown;
+  text-decoration: none;
+}
+
+.Hero3-TopLEFT img {
+  /* border: 2px solid brown; */
+  border-radius: 5px;
+  height: 70%;
+  width: 20%;
+}
+
+/* .trendICCN {
+  color: rgb(181, 101, 101);
+  font-size: 30px;
+} */
+
+.Hero3-TopRYT {
+  border-bottom: 5px solid brown;
+  /* border: 2px solid gold; */
+  height: 100%;
+  width: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  transition: ease-in-out 0.5s;
+}
+.Hero3-TopRYT:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in-out 0.5s;
+  color: brown;
+  text-decoration: none;
+}
+.Hero3-TopLEFT h2 {
+  font-weight: 600;
+}
+
+.Hero3-TopRYT h5 {
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.Hero3-Top2 {
+  /* border: 2px solid red; */
+  background-color: white;
+  border-radius: 7px;
+  height: 75%;
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* .NwArrvCard {
+  border: 2px solid blue;
+  height: 98%;
+  width: 16%;
+} */

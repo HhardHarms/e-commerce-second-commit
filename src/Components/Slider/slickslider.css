@@ -9,7 +9,7 @@
   height: 550px;
   width: 100%;
   /* overflow: hidden; */
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   border-radius: 10px;
 }
 
@@ -17,7 +17,7 @@
   width: 100%;
   height: 550px;
   border-bottom: 10px;
-  border: 5px solid green;
+  /* border: 5px solid green; */
 }
 
 .slideCONT {
@@ -27,7 +27,7 @@
   padding: 20px;
   height: 500px;
   width: 50%;
-  border: 5px solid purple;
+  /* border: 5px solid purple; */
 }
 
 .slider-item.slider-1 {
@@ -53,18 +53,18 @@
   display: flex;
   justify-content: center;
   align-items: last baseline;
-  border: 5px solid blue;
+  /* border: 5px solid blue; */
 }
 .slideCONT-txt1 {
-  border: 3px solid gold;
+  /* border: 3px solid gold; */
   height: 350px;
   width: 50%;
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: flex-end;
 }
 .left1 {
-  border: 3px solid maroon;
+  /* border: 3px solid maroon; */
   height: 100%;
   width: 100%;
   display: flex;
@@ -123,10 +123,10 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  border: 5px solid blue;
+  /* border: 5px solid blue; */
 }
 .slideCONT-txt2 {
-  border: 3px solid gold;
+  /* border: 3px solid gold; */
   height: 350px;
   width: 45%;
   display: flex;
@@ -134,7 +134,7 @@
   align-items: center;
 }
 .left2 {
-  border: 3px solid maroon;
+  /* border: 3px solid maroon; */
   height: 100%;
   width: 100%;
   display: flex;
@@ -186,10 +186,10 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  border: 5px solid blue;
+  /* border: 5px solid blue; */
 }
 .slideCONT-txt3 {
-  border: 3px solid gold;
+  /* border: 3px solid gold; */
   height: 450px;
   width: 60%;
   display: flex;
@@ -197,7 +197,7 @@
   align-items: center;
 }
 .left3 {
-  border: 3px solid maroon;
+  /* border: 3px solid maroon; */
   height: 100%;
   width: 100%;
   display: flex;
@@ -262,10 +262,10 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  border: 5px solid blue;
+  /* border: 5px solid blue; */
 }
 .slideCONT-txt4 {
-  border: 3px solid gold;
+  /* border: 3px solid gold; */
   height: 350px;
   width: 55%;
   display: flex;
@@ -274,7 +274,7 @@
   text-align: center;
 }
 .left4 {
-  border: 3px solid maroon;
+  /* border: 3px solid maroon; */
   height: 100%;
   width: 100%;
   display: flex;
@@ -342,10 +342,10 @@
   width: 100%;
   display: flex;
   justify-content: flex-start;
-  border: 5px solid blue;
+  /* border: 5px solid blue; */
 }
 .slideCONT-txt5 {
-  border: 3px solid gold;
+  /* border: 3px solid gold; */
   height: 400px;
   width: 55%;
   display: flex;
@@ -353,7 +353,7 @@
   justify-content: flex-start;
 }
 .left5 {
-  border: 3px solid maroon;
+  /* border: 3px solid maroon; */
   height: 100%;
   width: 100%;
   display: flex;
@@ -423,10 +423,10 @@
   width: 100%;
   display: flex;
   justify-content: flex-start;
-  border: 5px solid blue;
+  /* border: 5px solid blue; */
 }
 .slideCONT-txt6 {
-  border: 3px solid gold;
+  /* border: 3px solid gold; */
   height: 420px;
   width: 55%;
   display: flex;
@@ -434,7 +434,7 @@
   justify-content: flex-start;
 }
 .left6 {
-  border: 3px solid maroon;
+  /* border: 3px solid maroon; */
   height: 100%;
   width: 100%;
   display: flex;
@@ -500,17 +500,17 @@
 
 .slick-dots {
   position: relative;
-  /* border: 2px solid red; */
+  /* border: 2px solid gold; */
 }
 
 .slick-dots li {
-  border: 5px solid brown;
+  /* border: 5px solid brown; */
   border-radius: 50%;
   width: 20px;
   height: 20px;
   bottom: -15px;
   position: absolute;
-  /* border: 8px solid blue; */
+  border: 6px solid black;
 }
 
 .slick-dots li button {

@@ -1,7 +1,8 @@
 .Heerro-2 {
-  height: 113vh;
+  height: 88vh;
   width: 100%;
-  border: 2px solid red;
+  /* border: 2px solid gold; */
+  /* margin-top: 15px; */
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -9,19 +10,91 @@
 }
 
 .Hero2 {
-  border: 3px solid blue;
+  /* border: 3px solid black; */
+  padding: 5px;
+  box-shadow: 0 0 8px 0 black;
+  border-radius: 5px;
   width: 93.5%;
-  height: 90%;
+  height: 96%;
+  margin-top: 25px;
 }
 
 .Hero2-Top {
-  border: 3px solid maroon;
-  height: 10%;
+  /* border-bottom: 2px solid brown; */
+  height: 5%;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Hero2-TopLEFT {
+  border-bottom: 5px solid brown;
+  padding: 10px;
+  height: 100%;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding-left: 5px;
+  transition: ease-in-out 0.5s;
+}
+.Hero2-TopLEFT:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: ease-in-out 0.5s;
+  color: brown;
+  text-decoration: none;
+}
+
+.trendICCN {
+  color: rgb(181, 101, 101);
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.Hero2-TopRYT {
+  border-bottom: 5px solid brown;
+  height: 100%;
+  width: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  transition: ease-in-out 0.5s;
+}
+.Hero2-TopRYT:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in-out 0.5s;
+  color: brown;
+  text-decoration: none;
+  font-weight: 800;
+}
+.Hero2-TopLEFT h2 {
+  font-weight: 500;
+}
+
+.Hero2-TopRYT h5 {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
 }
 
 .Hero2-Bttm {
-  border: 3px solid maroon;
-  height: 80%;
+  /* border: 3px solid maroon; */
+  height: 95%;
   width: 100%;
+}
+.Hero2-BttmUp {
+  /* border: 2px solid gold; */
+  height: 99%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-evenly;
+  padding: 7px;
+  margin-top: 7px;
 }

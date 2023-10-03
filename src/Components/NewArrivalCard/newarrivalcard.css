@@ -1,0 +1,55 @@
+.NwArrvCard {
+  /* border: 2px solid blue; */
+  height: 92%;
+  width: 14%;
+  margin-top: 10px;
+  border-radius: 7px;
+  transition: all ease-in-out 0.5s;
+}
+.NwArrvCard:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all ease-in-out 0.5s;
+  box-shadow: 0 0 8px 0 black;
+  font-weight: 700;
+  color: brown;
+  border-radius: 7px;
+}
+
+.NwArrvCard1 {
+  /* border: 2px solid gold; */
+  height: 100%;
+  border-radius: 7px;
+  /* background-color: black; */
+}
+
+.NwArrvCard-Top {
+  /* border: 2px solid red; */
+  height: 75%;
+  width: 100%;
+}
+.NwArrvCard-Top img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.NwArrvCard-Bttm {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 5px;
+  border-radius: 0 0 7px 7px;
+  background-color: rgb(233, 231, 231);
+}
+
+.NwArrvCard-Bttm-2 {
+  /* border: 2px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cartplus {
+  font-size: 23px;
+}

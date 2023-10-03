@@ -4,40 +4,43 @@
   display: flex;
   flex-direction: column;
   gap: 90px;
-  border: 2px solid rebeccapurple;
+  /* border: 2px solid rebeccapurple; */
 }
 
 .nwSTYL-lft {
-  border: 2px solid black;
+  /* border: 2px solid black; */
+  padding: 10px;
+  box-shadow: 0 0 8px 0 black;
   border-radius: 20px;
   height: 40%;
   width: 100%;
 }
 
 .nwSTYL-lftUP {
-  border-bottom: 2px solid black;
+  border-bottom: 5px solid brown;
   height: 15%;
   width: 100%;
   padding: 10px;
-}
-.nwSTYL-lftUP h3 {
-  font-size: 20px;
-  text-transform: capitalize;
   transition: ease-in-out 0.5s;
 }
-.nwSTYL-lftUP h3:hover {
+.nwSTYL-lftUP:hover {
   cursor: pointer;
   transform: scale(0.9);
   transition: ease-in-out 0.5s;
   color: brown;
   text-decoration: none;
 }
+.nwSTYL-lftUP h3 {
+  font-size: 20px;
+  text-transform: capitalize;
+  transition: ease-in-out 0.5s;
+}
 
 .nwSTYL-lftDWN {
   height: 85%;
   width: 100%;
   padding: 8px;
-  border: 2px solid green;
+  /* border: 2px solid gold */
 }
 
 .iccn {
@@ -62,38 +65,42 @@
 .newSTYLE-LEFTdown {
   height: 50%;
   width: 100%;
-  border: 2px solid green;
+  /* border: 2px solid gold */
 }
 .cata-LOGUE {
-  border: 2px solid black;
+  /* border: 2px solid black; */
+  padding: 10px;
+  box-shadow: 0 0 8px 0 black;
   border-radius: 20px;
   height: 100%;
   width: 100%;
 }
 
 .cataLOGUE-UP {
-  border-bottom: 2px solid black;
-  height: 15%;
+  border-bottom: 5px solid brown;
+  height: 12%;
   width: 100%;
   padding: 10px;
-}
-
-.cataLOGUE-UP h3 {
-  text-transform: capitalize;
-  font-size: 20px;
   transition: ease-in-out 0.5s;
 }
-.cataLOGUE-UP h3:hover {
+
+.cataLOGUE-UP:hover {
   cursor: pointer;
   transform: scale(0.9);
   transition: ease-in-out 0.5s;
   color: brown;
   text-decoration: none;
 }
+.cataLOGUE-UP h3 {
+  text-transform: capitalize;
+  font-size: 20px;
+  transition: ease-in-out 0.5s;
+}
 
 .cataLOGUE-BTTM {
   height: 80%;
   width: 100%;
+  padding-top: 20px;
 }
 
 .cataLOGUE-BTTM1 {
@@ -105,7 +112,9 @@
   margin-top: 5px;
   margin-left: 20px;
   padding: 5px;
-  border: 1px solid red;
+  /* border: 1px solid black; */
+  box-shadow: 0 0 8px 0 black;
+  border-radius: 5px;
 }
 .cataLOGUE-BTTM1 p {
   font-weight: 600;
@@ -118,7 +127,7 @@
   cursor: pointer;
 }
 .priceRANGE {
-  border: 2px solid green;
+  /* border: 2px solid gold; */
   width: 90%;
   color: brown;
   cursor: pointer;
@@ -133,7 +142,10 @@
   margin-top: 5px;
   margin-left: 20px;
   padding: 5px;
-  border: 1px solid red;
+  /* border: 1px solid black; */
+  padding: 10px;
+  box-shadow: 0 0 8px 0 black;
+  border-radius: 5px;
 }
 .cataLOGUE-BTTM2 p {
   font-weight: 600;
@@ -163,10 +175,13 @@
   flex-direction: column;
   margin-top: 5px;
   margin-left: 20px;
-  border: 1px solid red;
+  /* border: 1px solid black; */
+  padding: 10px;
+  box-shadow: 0 0 8px 0 black;
+  border-radius: 5px;
 }
 .BTTM3-up {
-  border: 2px solid green;
+  /* border: 2px solid gold */
   height: 15%;
   font-weight: 600;
   text-transform: capitalize;
@@ -174,7 +189,7 @@
 }
 
 .BTTM3-dwn {
-  border: 2px solid green;
+  /* border: 2px solid gold */
   width: 100%;
   height: 80%;
   font-size: 17px;
@@ -187,7 +202,7 @@
 }
 
 .BTTM3-dwn1 {
-  border: 2px solid palevioletred;
+  /* border: 2px solid palevioletred; */
   display: flex;
   gap: 15px;
   padding-left: 15px;
@@ -198,17 +213,17 @@
   height: 20px;
   width: 20px;
   border-radius: 100%;
-  border: 2px solid maroon;
+  /* border: 2px solid gold */
   margin-top: 5px;
   background-color: red;
 }
 .BTTM3-dwn p {
   padding-top: 5px;
-  /* border: 2px solid red; */
+  /* border: 2px solid gold */
 }
 
 .BTTM3-dwn2 {
-  border: 2px solid palevioletred;
+  /* border: 2px solid palevioletred; */
   display: flex;
   gap: 15px;
   padding-left: 15px;
@@ -219,13 +234,13 @@
   height: 20px;
   width: 20px;
   border-radius: 100%;
-  border: 2px solid maroon;
+  /* border: 2px solid gold */
   margin-top: 5px;
   background-color: white;
 }
 
 .BTTM3-dwn3 {
-  border: 2px solid palevioletred;
+  /* border: 2px solid palevioletred; */
   display: flex;
   gap: 15px;
   padding-left: 15px;
@@ -236,12 +251,12 @@
   height: 20px;
   width: 20px;
   border-radius: 100%;
-  border: 2px solid maroon;
+  /* border: 2px solid gold */
   margin-top: 5px;
   background-color: blue;
 }
 .BTTM3-dwn4 {
-  border: 2px solid palevioletred;
+  /* border: 2px solid palevioletred; */
   display: flex;
   gap: 15px;
   padding-left: 15px;
@@ -252,7 +267,7 @@
   height: 20px;
   width: 20px;
   border-radius: 100%;
-  border: 2px solid maroon;
+  /* border: 2px solid gold */
   margin-top: 5px;
   background-color: yellow;
 }

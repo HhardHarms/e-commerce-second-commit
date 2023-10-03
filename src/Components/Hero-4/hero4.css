@@ -1,0 +1,94 @@
+.Heerro-4 {
+  height: 54vh;
+  width: 100%;
+  /* border: 3px solid gold; */
+  display: flex;
+  justify-content: center;
+  /* gap: 20px; */
+  background-color: rgb(233, 231, 231);
+}
+
+.Hero4 {
+  /* border: 3px solid red; */
+  padding: 10px;
+  box-shadow: 0 0 8px 0 black;
+  border-radius: 7px;
+  width: 99%;
+  height: 90%;
+  margin-top: 30px;
+}
+
+.Hero4-Top {
+  /* border-bottom: 2px solid black; */
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Hero4-TopLEFT {
+  border-bottom: 5px solid brown;
+  height: 100%;
+  width: 22%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  transition: ease-in-out 0.5s;
+}
+.Hero4-TopLEFT:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: ease-in-out 0.5s;
+  color: brown;
+  text-decoration: none;
+}
+
+.Hero4-TopLEFT img {
+  /* border: 2px solid brown; */
+  box-shadow: 0 0 8px 0 black;
+  border-radius: 5px;
+  height: 100%;
+  width: 50%;
+}
+
+.trendICCN {
+  color: rgb(190, 22, 22);
+  font-size: 30px;
+}
+
+.Hero4-TopRYT {
+  border-bottom: 5px solid brown;
+  height: 100%;
+  width: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  transition: ease-in-out 0.5s;
+}
+.Hero4-TopRYT:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in-out 0.5s;
+  color: brown;
+  text-decoration: none;
+}
+.Hero4-TopLEFT h2 {
+  font-weight: 600;
+}
+
+.Hero4-TopRYT h5 {
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.Hero4-Bottom {
+  /* border: 2px solid red; */
+  box-shadow: 0 0 8px 0 brown;
+  border-radius: 7px;
+  height: 80%;
+  width: 100%;
+  margin-top: 15px;
+}

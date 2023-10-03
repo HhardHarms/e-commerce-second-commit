@@ -1,0 +1,70 @@
+.Hero4Slider-container {
+  height: 37vh;
+  width: 100%;
+  /* border: 2px solid red; */
+  box-shadow: 0 0 8px 0 black;
+  border-radius: 10px;
+  /* display: flex; */
+  overflow: hidden;
+}
+
+.Hero4Slide {
+  height: 304.8px;
+  width: 100px;
+  /* background-color: red; */
+  /* border: 5px solid gold; */
+  /* border-radius: 10px; */
+}
+
+.Hero4slider {
+  height: 100%;
+  width: 100%;
+  /* border: 5px solid blue; */
+  display: flex;
+  flex-direction: column;
+}
+.Hero4slider-Top {
+  /* border: 2px solid maroon; */
+  height: 75%;
+  width: 100%;
+}
+.Hero4slider-Top img {
+  /* border: 2px solid gold; */
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.Hero4slider-Bttm1 {
+  /* border: 2px solid green; */
+  height: 25%;
+  width: 100%;
+}
+.Hero4slider-Bttm1UP {
+  /* border: 2px solid pink; */
+  height: 65%;
+  width: 100%;
+  padding-left: 3px;
+}
+.Herr4-HH {
+  font-weight: 600;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.Hero4slider-Bttm1DWN {
+  /* border: 2px solid pink; */
+  height: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px;
+}
+.Hero4slider-Bttm1DWN p {
+  font-weight: 600;
+}
+.Herr4-PP {
+  font-weight: 600;
+  text-decoration: line-through;
+  color: red;
+}
